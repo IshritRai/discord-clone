@@ -4,7 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord Clone</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <nav class="server-list">
+      <ul>
+        <li><a href="#">Server 1</a></li>
+        <li><a href="#">Server 2</a></li>
+        <li><a href="#">Server 3</a></li>
+      </ul>
+    </nav>
+
+    <nav class="channel-list">
+      <h2 class="server-name">Server Name</h2>
+
+      <div class="channels">
+        <h3>Text Channels</h3>
+        <ul>
+          <li><a href="#"># general</a></li>
+          <li><a href="#"># random</a></li>
+          <li><a href="#"># homework</a></li>
+        </ul>
+
+        <h3>Voice Channels</h3>
+        <ul>
+          <li><a href="#">General</a></li>
+          <li><a href="#">Study Room</a></li>
+        </ul>
+      </div>
+
+      <div class="user-section">
+        <div class="avatar"></div>
+        <span>Username</span>
+      </div>
+    </nav>
+
+    <main class="chat-area">
+      <header class="chat-header">
+        <h1># general</h1>
+      </header>
+
+      <div class="messages">
+        <div class="message">
+          <div class="avatar"></div>
+          <div>
+            <span class="username">Username</span>
+            <p>Hey, is anyone here?</p>
+          </div>
+        </div>
+
+        <div class="message">
+          <div class="avatar"></div>
+          <div>
+            <span class="username">Another User</span>
+            <p>Yep, just joined.</p>
+          </div>
+        </div>
+
+        <div class="message">
+          <div class="avatar"></div>
+          <div>
+            <span class="username">Username</span>
+            <p>Nice. Did you finish the lab?</p>
+          </div>
+        </div>
+      </div>
+
+      <form class="message-input">
+        <input type="text" placeholder="Message #general">
+      </form>
+    </main>
+
+    <aside class="member-list">
+      <h2>Members</h2>
+      <ul>
+        <li>Member 1</li>
+        <li>Member 2</li>
+        <li>Member 3</li>
+        <li>Member 4</li>
+      </ul>
+    </aside>
   </body>
 </html>

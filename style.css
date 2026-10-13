@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 4px 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.server-list {
+  width: 80px;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+.channel-list {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.server-name {
+  padding: 16px;
+  border-bottom: 1px solid black;
+}
+
+.channels {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.channels ul {
+  margin-bottom: 16px;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-top: 1px solid black;
+}
+
+.chat-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.chat-header {
+  padding: 16px;
+  border-bottom: 1px solid black;
+}
+
+.messages {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.message {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.message-input {
+  padding: 16px;
+  border-top: 1px solid black;
+}
+
+.message-input input {
+  width: 100%;
+  padding: 8px;
+}
+
+.member-list {
+  width: 240px;
+  padding: 16px;
+  border: 1px solid black;
+}
